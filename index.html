@@ -2,41 +2,7 @@
 <html>
   <head>
     <title>About Me</title>
-    <style>
-      body
-      {
-        background-color: #444444;
-        color: white;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
-      .smalldesc
-      {
-        font-size: 30px;
-      }
-      .whatever
-      {
-        font-size: 50px;
-        font-weight: bold;
-        margin-top: 0px;
-      }
-      body a
-      {
-        color: rgb(0, 255, 64);
-      }
-      .det
-      {
-        margin-bottom: 20px;
-      }
-      table, tr, th, td, caption
-      {
-        border: 0.5px solid white;
-        font-size: 15px;
-      }
-      p, ol li
-      {
-        font-size: large;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <article>
@@ -44,10 +10,13 @@
         <p class="whatever">
           About me
         </p>
-        <nav>
-          <a href="#table">The table</a> <br>
-          <a href="#pref">Preferences</a>
-        </nav>
+        <div id="navigation">
+          <p class="nv">Navigation</p>
+          <nav>
+            <a href="#table">The table</a> <br>
+            <a href="#pref">Preferences</a>
+          </nav>
+        </div>
         <p class="smalldesc">
           My name is S.M Manir -Uz- Zaman Nahian. <br>
           I am a student at <abbr title="Ramu Cantonment English School">RCESC</abbr> <br>
@@ -201,6 +170,5 @@
         </aside>
       </section>
     </article>
-    <script src="script.js"></script>
   </body>
 </html>
